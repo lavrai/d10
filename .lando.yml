@@ -1,0 +1,14 @@
+name: drupal-unicef
+recipe: drupal10
+config:
+  webroot: docroot
+proxy:
+  mailhog:
+    - mail.drupal.unicef.lando.site
+  phpmyadmin:
+    - phpmyadmin.drupal.unicef.lando.site
+services:
+  mailhog:
+    type: mailhog  
+  phpmyadmin:
+    type: phpmyadmin
