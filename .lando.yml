@@ -1,12 +1,12 @@
-name: drupal-unicef
+name: drupal-uni
 recipe: drupal10
 config:
   webroot: docroot
 proxy:
   mailhog:
-    - mail.drupal.unicef.lando.site
+    - mail.drupal.uni.lando.site
   phpmyadmin:
-    - phpmyadmin.drupal.unicef.lando.site
+    - phpmyadmin.drupal.uni.lando.site
 services:
   mailhog:
     type: mailhog  
